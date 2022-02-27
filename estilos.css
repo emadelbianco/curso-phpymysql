@@ -1,0 +1,234 @@
+.pedidos{
+	width:600px;
+	height:150px;
+	margin-left: 30px;
+
+}
+
+.pedidos h4{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#bot_catalogo {
+	width:600px;
+	height:50px;
+	background-color:#FFF;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#bot_catalogo ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#bot_catalogo ul li {
+	display: inline;
+}
+
+#bot_catalogo ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	
+	}
+	
+#bot_catalogo ul li a:hover {
+	background-color: rgb(203, 154, 77);
+	}
+	
+#datos h3{
+	width: 800px;
+	height: 50px;
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#datos p{
+	font-size: 18px;
+	width: 700px;
+	margin-left: 60px;
+}
+
+#img_catalogo{
+	margin-left: 60px;
+	width: 250px;
+}
+
+#img_catalogo img{
+	width: 100%;
+}
+
+.noti{
+	width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.noti img{
+	width: 100%;
+}
+
+.noti p{
+	background-color: rgb(234, 225, 208);
+}
+
+#contenido form{
+	width: 700px;
+	margin-top: 30px;
+}
+
+#contenido form input{
+	margin-bottom: 10px;
+}
+
+#contenido form textarea{
+	margin-bottom: 10px;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+
+header {
+	height:290px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:940px;
+	height:70px;
+	border-left: 20px solid #80C141;
+	background-color:#FFF;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 180px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	}
+	
+#marca {
+	background-image:url(imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	
+	
+	}
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+#contenedor {
+	width:580px;
+	}
+
+header {
+	height:290px;
+	}
+
+#botonera_principal {
+	width:560px;
+	height:140px;
+}
+
+
+#botonera_principal ul li a {
+	width: 185px;	
+	}
+
+} /* fin media 600 a 1023px */
+
+@media all and (max-width: 599px) {
+#contenedor {
+	width:90%;
+	}
+
+header {
+	height:auto;
+	}
+
+#botonera_principal {
+	width:100%;
+	height:auto;
+	box-sizing: border-box;
+	}
+
+#botonera_principal ul li {
+	display: block;
+}
+
+#botonera_principal ul li a {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	}
+	
+} /* fin media -599px */
